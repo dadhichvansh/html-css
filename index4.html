@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+      /* p {
+        display: inline;
+      }
+      span {
+        display: block;
+      } */
+      .container {
+        width: 900px;
+        height: auto;
+        border: 1px solid black;
+      }
+      .container > div,
+      .container > div > .wrapper {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin: 0.5rem;
+      }
+      i {
+        font-size: 1.5rem;
+      }
+      h3 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nam quam
+      ipsum soluta praesentium! Aliquam omnis ducimus asperiores quibusdam,
+      nostrum sint possimus nam, modi odit dicta quisquam perferendis, facere
+      cupiditate?
+    </p>
+
+    <span>span tag</span>
+    <span>span tag 2</span>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nam quam
+      ipsum soluta praesentium! Aliquam omnis ducimus asperiores quibusdam,
+      nostrum sint possimus nam, modi odit dicta quisquam perferendis, facere
+      cupiditate?
+    </p> -->
+
+    <div class="container">
+      <div>
+        <div class="wrapper">
+          <span>
+            <i class="ri-amazon-line"></i>
+          </span>
+          <span>
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              natus assumenda consectetur repudiandae, architecto quisquam neque
+              impedit maiores voluptates quasi.
+            </p>
+          </span>
+        </div>
+        <div class="wrapper">
+          <span>
+            <i class="ri-amazon-line"></i>
+          </span>
+          <span>
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              natus assumenda consectetur repudiandae, architecto quisquam neque
+              impedit maiores voluptates quasi.
+            </p>
+          </span>
+        </div>
+        <div class="wrapper">
+          <span>
+            <i class="ri-amazon-line"></i>
+          </span>
+          <span>
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              natus assumenda consectetur repudiandae, architecto quisquam neque
+              impedit maiores voluptates quasi.
+            </p>
+          </span>
+        </div>
+      </div>
+      <div>
+        <div class="wrapper">
+          <span>
+            <i class="ri-amazon-line"></i>
+          </span>
+          <span>
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              natus assumenda consectetur repudiandae, architecto quisquam neque
+              impedit maiores voluptates quasi.
+            </p>
+          </span>
+        </div>
+        <div class="wrapper">
+          <span>
+            <i class="ri-amazon-line"></i>
+          </span>
+          <span>
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              natus assumenda consectetur repudiandae, architecto quisquam neque
+              impedit maiores voluptates quasi.
+            </p>
+          </span>
+        </div>
+        <div class="wrapper">
+          <span>
+            <i class="ri-amazon-line"></i>
+          </span>
+          <span>
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              natus assumenda consectetur repudiandae, architecto quisquam neque
+              impedit maiores voluptates quasi.
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const reveal = {
+        delay: 500,
+        duration: 750,
+        origin: "bottom",
+        distance: "20px",
+      };
+
+      ScrollReveal().reveal(".wrapper", reveal);
+      ScrollReveal().reveal("i", reveal);
+    </script>
+  </body>
+</html>
